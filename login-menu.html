@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .container{
+        width: 300px;
+        height: 300px;
+        background-color: rgb(178, 180, 179);
+        padding: 6rem 4rem;
+        text-align: center;
+        border-radius: 9px;
+        border: 2px solid #000;
+        box-shadow: 1px 5px 5px 8px  rgba(0, 0, 0, 0.335);
+        
+    }
+    input{
+        width: 100%;
+        margin-top: 2rem;
+        padding: 8px 10px ;
+        border-radius:5px;
+        outline: none;
+        border: none;
+    }
+    #btn_login{
+        width: 320px;
+        margin-top: 1rem;
+        padding: 5px 10px;
+        border-radius: 4px;
+        background-color: blue;
+        color: #fff;
+        text-align: center;
+        border: none;
+    }
+    #btn_create{
+        width: 50%;
+        margin-top: 0.5rem;
+        padding: 9px 10px;
+        border-radius: 4px;
+        border: none;
+        background-color: rgb(31, 170, 31);
+        color: #fff;
+        text-align: center;
+    }
+    a{
+        color: #000;
+    }
+    #btn_login a{
+        color: #fff;
+        font-size: 17px;
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Login</h1>
+        <input type="email" placeholder="User Name..." id="email"><br><br>
+        <input type="password" placeholder="Password..." id="pass"><br><br>
+        <button id="btn_login" type="submit"><a href="./cart.html">Login</a></button><br><br>
+        <a href="#">Forget password</a><br><br>
+        <button id="btn_create" type="submit">Create New account</button>
+    </div>
+</body>
+</html>
